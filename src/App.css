@@ -1,0 +1,102 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.body{
+  background-color: rgb(22, 20, 20);
+}
+.container{
+  height: 150px;
+  width: 76%;
+  margin-left: 12%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+.padd {
+  padding:7px;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.btn {
+  width: 15%;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: #971515f0;
+  color: white;
+}
+.search-field{
+  background-color: black;
+  height: 40px;
+  width: 80%;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  outline: none;
+  text-indent: 5px;
+  color: white;
+}
+
+.movie {
+  width: 100%;
+  height: 470px;
+  margin-top: 2%;
+  display: flex;
+  color: white;
+}
+.poster {
+  width:35%;
+  overflow: hidden;
+}
+.details { 
+  width: 65%;
+  color: white;
+  margin-left: 2%;
+  margin-top: 0px;
+}
+.poster-img {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  margin-top: 0px;
+}
+.ratings {
+  display: flex;
+  justify-content: space-evenly;
+}
