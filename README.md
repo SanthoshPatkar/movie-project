@@ -1,3 +1,4 @@
-### Run 
-npm install
-npm start
+### Run
+1. clone this repository
+2. cmd-> npm init
+3. npm start
