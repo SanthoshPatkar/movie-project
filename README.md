@@ -6,5 +6,5 @@ This is movie-serch web app, user can search any movie and get the details of th
 
 ### Run
 1. clone this repository
-2. cmd-> npm init
+2. cmd-> npm install
 3. npm start
